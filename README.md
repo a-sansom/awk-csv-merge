@@ -2,7 +2,7 @@ Example AWK program to merge two CSV files that contain a common column/field va
 
 Usage:
 
-gawk -f merge.awk parent.csv child.csv 
+    gawk -f merge.awk parent.csv child.csv 
 
 Will merge data from child.csv with that in parent.csv, using the common URL values in each file.
 
